@@ -19,25 +19,32 @@ const home = document.querySelector(".home");
 const menu = document.querySelector(".menu");
 const contacts = document.querySelector(".contacts");
 
-populateHome();
+defaultHome();
 
 home.addEventListener("click", () => {
-    clearPage();
-    populateHome();
+    defaultHome();
 });
 menu.addEventListener("click", () => {
     clearPage();
     populateMenu();
+    menu.style.backgroundColor = "blue";
 });
 contacts.addEventListener("click", () => {
     clearPage();
     populateContacts();
+    contacts.style.backgroundColor = "blue";
 });
 
-function clearPage(){
+function clearPage() {
     contentDiv.innerHTML = "";
     const buttons = document.querySelectorAll("button");
     buttons.forEach((button) => {
-        button.style.backgroundColor = "none"; //Use default color
+        button.style.backgroundColor = "cyan"; //Use default color
     });
+}
+
+function defaultHome() {
+    clearPage();
+    populateHome();
+    home.style.backgroundColor = "blue";
 }

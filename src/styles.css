@@ -3,3 +3,17 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: red ; /*test*/
+}
+
+button {
+    background-color: cyan; /*test*/
+}
+
+.content{
+    background-color: darkgreen; /*test*/
+}
