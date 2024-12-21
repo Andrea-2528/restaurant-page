@@ -14,19 +14,30 @@ import { populateContacts } from "./populateContacts";
 
 message;
 const contentDiv = document.querySelector(".content");
+
 const home = document.querySelector(".home");
 const menu = document.querySelector(".menu");
 const contacts = document.querySelector(".contacts");
 
+populateHome();
+
 home.addEventListener("click", () => {
-    contentDiv.innerHTML = "";
+    clearPage();
     populateHome();
 });
 menu.addEventListener("click", () => {
-    contentDiv.innerHTML = "";
+    clearPage();
     populateMenu();
 });
 contacts.addEventListener("click", () => {
-    contentDiv.innerHTML = "";
+    clearPage();
     populateContacts();
 });
+
+function clearPage(){
+    contentDiv.innerHTML = "";
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach((button) => {
+        button.style.backgroundColor = "none"; //Use default color
+    });
+}
