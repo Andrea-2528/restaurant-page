@@ -1,0 +1,1 @@
+This project has been intended as an exercise on webpack bundling and on switching the DOM's content through JS and various modules instead of relying on different HTML pages that need to be opened and loaded.
