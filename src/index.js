@@ -27,24 +27,24 @@ home.addEventListener("click", () => {
 menu.addEventListener("click", () => {
     clearPage();
     populateMenu();
-    menu.style.backgroundColor = "blue";
+    menu.style.backgroundColor = "#c72929";
 });
 contacts.addEventListener("click", () => {
     clearPage();
     populateContacts();
-    contacts.style.backgroundColor = "blue";
+    contacts.style.backgroundColor = "#c72929";
 });
 
 function clearPage() {
     contentDiv.innerHTML = "";
     const buttons = document.querySelectorAll("button");
     buttons.forEach((button) => {
-        button.style.backgroundColor = "cyan"; //Use default color
+        button.style.backgroundColor = "#ffc105"; //Use default color
     });
 }
 
 function defaultHome() {
     clearPage();
     populateHome();
-    home.style.backgroundColor = "blue";
+    home.style.backgroundColor = "#c72929";
 }

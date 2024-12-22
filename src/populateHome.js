@@ -27,7 +27,7 @@ function populateHome() {
     h1.textContent = "Pizza's Pizzeria";                   //Add text to h1    
     img.src = image;                                        //Add img source
     img.alt = "AI image of a pizza in front of an oven";    //Add img alt
-    homeP.textContent = `Welcome to Pizza Pizza's Pizzeria, where pizza dreams become pizza reality! Here, we don't just serve pizza, we live pizza, we breathe pizza, we pizza your hunger, and we pizza your soul. From the moment you pizza through our doors, you'll smell the pizza love wafting through the air like a pizza hug. Our ovens are pizza-hot, our staff is pizza-ready, and every pizza bite will be a pizza-perfect slice of happiness. So, sit back, pizza your mind, and let the pizza-liciousness take over. Remember, in this pizza haven, we don't just make pizza — we are pizza. Pizza cheers! 🍕";`
+    homeP.textContent = `Welcome to Pizza Pizza's Pizzeria, where pizza dreams become pizza reality! Here, we don't just serve pizza, we live pizza, we breathe pizza, we pizza your hunger, and we pizza your soul. From the moment you pizza through our doors, you'll smell the pizza love wafting through the air like a pizza hug. Our ovens are pizza-hot, our staff is pizza-ready, and every pizza bite will be a pizza-perfect slice of happiness. So, sit back, pizza your mind, and let the pizza-liciousness take over. Remember, in this pizza haven, we don't just make pizza — we are pizza. Pizza cheers! 🍕`
     hoursH2.textContent = "Hours";                          //Add text to h2
     locationH2.textContent = "Location";                     //Add text to h2
     locationP.textContent = "123 Main Street, Main City, Main Country"; //Add text to p
